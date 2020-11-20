@@ -1,0 +1,148 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 20 18:07:49 EST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>9 seconds (9208 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.logmein.tests.CalculatorTest.infinityResultTest()'><b>infinityResultTest</b><br>Test class: com.logmein.tests.CalculatorTest<br/>
+<a href="#Output-399149970" onClick='toggleBox("Output-399149970", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-399149970" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-399149970">
+2020-11-20 18:07:53 INFO  Calculator:82 - Navigate to - https://www.jsbin.com/hudape/1
+<p><br/>
+2020-11-20 18:07:54 INFO  BasePage:30 - Looking for mandatory elements on the page
+<p><br/>
+2020-11-20 18:07:55 INFO  Calculator:160 - Start to calculate the expression 6+7¡Á8-9/0
+<p><br/>
+2020-11-20 18:07:55 INFO  Calculator:164 - Input Expression is the same as actual Expression
+<p><br/>
+2020-11-20 18:07:55 INFO  Calculator:167 - the result is our expect
+<p><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.logmein.tests.CalculatorTest@747ddf94</td></tr>
+<tr>
+<td title='com.logmein.tests.CalculatorTest.invalidResultTest()'><b>invalidResultTest</b><br>Test class: com.logmein.tests.CalculatorTest<br/>
+<a href="#Output-2075899560" onClick='toggleBox("Output-2075899560", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2075899560" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2075899560">
+2020-11-20 18:07:55 INFO  Calculator:82 - Navigate to - https://www.jsbin.com/hudape/1
+<p><br/>
+2020-11-20 18:07:55 INFO  BasePage:30 - Looking for mandatory elements on the page
+<p><br/>
+2020-11-20 18:07:56 INFO  Calculator:186 - Start to calculate the expression 6+7¡Á8-/9
+<p><br/>
+2020-11-20 18:07:56 INFO  Calculator:190 - Input Expression is the same as actual Expression
+<p><br/>
+2020-11-20 18:07:56 INFO  Calculator:193 - the result is our expect
+<p><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.logmein.tests.CalculatorTest@747ddf94</td></tr>
+<tr>
+<td title='com.logmein.tests.CalculatorTest.validResultTest()'><b>validResultTest</b><br>Test class: com.logmein.tests.CalculatorTest<br/>
+<a href="#Output-2060432982" onClick='toggleBox("Output-2060432982", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2060432982" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2060432982">
+2020-11-20 18:07:56 INFO  Calculator:82 - Navigate to - https://www.jsbin.com/hudape/1
+<p><br/>
+2020-11-20 18:07:56 INFO  BasePage:30 - Looking for mandatory elements on the page
+<p><br/>
+2020-11-20 18:07:57 INFO  Calculator:107 - Start to calculate the expression 1+2¡Á3-4/5
+<p><br/>
+2020-11-20 18:07:57 INFO  Calculator:110 - Input Expression is the same as actual Expression
+<p><br/>
+2020-11-20 18:07:57 INFO  Calculator:113 - the result is our expect
+<p><br/>
+2020-11-20 18:07:58 INFO  Calculator:134 - Start to calculate the expression 6+7¡Á8-0/9
+<p><br/>
+2020-11-20 18:07:58 INFO  Calculator:138 - Input Expression is the same as actual Expression
+<p><br/>
+2020-11-20 18:07:58 INFO  Calculator:141 - the result is our expect
+<p><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.logmein.tests.CalculatorTest@747ddf94</td></tr>
+</table><p>
+</body>
+</html>

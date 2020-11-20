@@ -1,0 +1,3 @@
+com\logmein\pages\BasePage.class
+com\logmein\pages\Calculator.class
+com\logmein\utilities\ReportAppender.class

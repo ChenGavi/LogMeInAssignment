@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Upgrade - Select Offers Scenario" verbose="1">
+    <test verbose="1" name="LogMeIn - Online Basic Calculator page Test">
+        <classes>
+            <class name="com.logmein.tests.CalculatorTest">
+                <methods>
+                    <include name="validResultTest"/>
+                    <include name="invalidResultTest"/>
+                    <include name="infinityResultTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
