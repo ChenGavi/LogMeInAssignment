@@ -2,174 +2,174 @@
 <testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[2020-11-20 18:07:53 INFO  Calculator:82 - Navigate to - https://www.jsbin.com/hudape/1
+      <![CDATA[2020-11-20 18:29:53 INFO  Calculator:82 - Navigate to - https://www.jsbin.com/hudape/1
 <p>]]>
     </line>
     <line>
-      <![CDATA[2020-11-20 18:07:54 INFO  BasePage:30 - Looking for mandatory elements on the page
+      <![CDATA[2020-11-20 18:29:55 INFO  BasePage:30 - Looking for mandatory elements on the page
 <p>]]>
     </line>
     <line>
-      <![CDATA[2020-11-20 18:07:55 INFO  Calculator:160 - Start to calculate the expression 6+7×8-9/0
+      <![CDATA[2020-11-20 18:29:56 INFO  Calculator:162 - Start to calculate the expression 6+7×8-9/0
 <p>]]>
     </line>
     <line>
-      <![CDATA[2020-11-20 18:07:55 INFO  Calculator:164 - Input Expression is the same as actual Expression
+      <![CDATA[2020-11-20 18:29:56 INFO  Calculator:166 - Input Expression is the same as actual Expression
 <p>]]>
     </line>
     <line>
-      <![CDATA[2020-11-20 18:07:55 INFO  Calculator:167 - the result is our expect
+      <![CDATA[2020-11-20 18:29:56 INFO  Calculator:169 - the result is our expect
 <p>]]>
     </line>
     <line>
-      <![CDATA[2020-11-20 18:07:55 INFO  Calculator:82 - Navigate to - https://www.jsbin.com/hudape/1
+      <![CDATA[2020-11-20 18:29:56 INFO  Calculator:82 - Navigate to - https://www.jsbin.com/hudape/1
 <p>]]>
     </line>
     <line>
-      <![CDATA[2020-11-20 18:07:55 INFO  BasePage:30 - Looking for mandatory elements on the page
+      <![CDATA[2020-11-20 18:29:56 INFO  BasePage:30 - Looking for mandatory elements on the page
 <p>]]>
     </line>
     <line>
-      <![CDATA[2020-11-20 18:07:56 INFO  Calculator:186 - Start to calculate the expression 6+7×8-/9
+      <![CDATA[2020-11-20 18:29:57 INFO  Calculator:188 - Start to calculate the expression 6+7×8-/9
 <p>]]>
     </line>
     <line>
-      <![CDATA[2020-11-20 18:07:56 INFO  Calculator:190 - Input Expression is the same as actual Expression
+      <![CDATA[2020-11-20 18:29:57 INFO  Calculator:192 - Input Expression is the same as actual Expression
 <p>]]>
     </line>
     <line>
-      <![CDATA[2020-11-20 18:07:56 INFO  Calculator:193 - the result is our expect
+      <![CDATA[2020-11-20 18:29:57 INFO  Calculator:195 - the result is our expect
 <p>]]>
     </line>
     <line>
-      <![CDATA[2020-11-20 18:07:56 INFO  Calculator:82 - Navigate to - https://www.jsbin.com/hudape/1
+      <![CDATA[2020-11-20 18:29:57 INFO  Calculator:82 - Navigate to - https://www.jsbin.com/hudape/1
 <p>]]>
     </line>
     <line>
-      <![CDATA[2020-11-20 18:07:56 INFO  BasePage:30 - Looking for mandatory elements on the page
+      <![CDATA[2020-11-20 18:29:58 INFO  BasePage:30 - Looking for mandatory elements on the page
 <p>]]>
     </line>
     <line>
-      <![CDATA[2020-11-20 18:07:57 INFO  Calculator:107 - Start to calculate the expression 1+2×3-4/5
+      <![CDATA[2020-11-20 18:29:59 INFO  Calculator:107 - Start to calculate the expression 1+2×3-4/5
 <p>]]>
     </line>
     <line>
-      <![CDATA[2020-11-20 18:07:57 INFO  Calculator:110 - Input Expression is the same as actual Expression
+      <![CDATA[2020-11-20 18:29:59 INFO  Calculator:110 - Input Expression is the same as actual Expression
 <p>]]>
     </line>
     <line>
-      <![CDATA[2020-11-20 18:07:57 INFO  Calculator:113 - the result is our expect
+      <![CDATA[2020-11-20 18:29:59 INFO  Calculator:113 - the result is our expect
 <p>]]>
     </line>
     <line>
-      <![CDATA[2020-11-20 18:07:58 INFO  Calculator:134 - Start to calculate the expression 6+7×8-0/9
+      <![CDATA[2020-11-20 18:29:59 INFO  Calculator:134 - Start to calculate the expression 6+7×8-0/9
 <p>]]>
     </line>
     <line>
-      <![CDATA[2020-11-20 18:07:58 INFO  Calculator:138 - Input Expression is the same as actual Expression
+      <![CDATA[2020-11-20 18:29:59 INFO  Calculator:138 - Input Expression is the same as actual Expression
 <p>]]>
     </line>
     <line>
-      <![CDATA[2020-11-20 18:07:58 INFO  Calculator:141 - the result is our expect
+      <![CDATA[2020-11-20 18:29:59 INFO  Calculator:141 - the result is our expect
 <p>]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-11-20T18:07:49 EST" name="Surefire suite" finished-at="2020-11-20T18:07:58 EST" duration-ms="9208">
+  <suite started-at="2020-11-20T18:29:50 EST" name="Surefire suite" finished-at="2020-11-20T18:29:59 EST" duration-ms="9581">
     <groups>
     </groups>
-    <test started-at="2020-11-20T18:07:49 EST" name="Surefire test" finished-at="2020-11-20T18:07:58 EST" duration-ms="9208">
+    <test started-at="2020-11-20T18:29:50 EST" name="Surefire test" finished-at="2020-11-20T18:29:59 EST" duration-ms="9581">
       <class name="com.logmein.tests.CalculatorTest">
-        <test-method signature="infinityResultTest()[pri:0, instance:com.logmein.tests.CalculatorTest@747ddf94]" started-at="2020-11-20T18:07:49 EST" name="infinityResultTest" finished-at="2020-11-20T18:07:55 EST" duration-ms="5908" status="PASS">
+        <test-method signature="infinityResultTest()[pri:0, instance:com.logmein.tests.CalculatorTest@747ddf94]" started-at="2020-11-20T18:29:50 EST" name="infinityResultTest" finished-at="2020-11-20T18:29:56 EST" duration-ms="6294" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[2020-11-20 18:07:53 INFO  Calculator:82 - Navigate to - https://www.jsbin.com/hudape/1
+              <![CDATA[2020-11-20 18:29:53 INFO  Calculator:82 - Navigate to - https://www.jsbin.com/hudape/1
 <p>]]>
             </line>
             <line>
-              <![CDATA[2020-11-20 18:07:54 INFO  BasePage:30 - Looking for mandatory elements on the page
+              <![CDATA[2020-11-20 18:29:55 INFO  BasePage:30 - Looking for mandatory elements on the page
 <p>]]>
             </line>
             <line>
-              <![CDATA[2020-11-20 18:07:55 INFO  Calculator:160 - Start to calculate the expression 6+7×8-9/0
+              <![CDATA[2020-11-20 18:29:56 INFO  Calculator:162 - Start to calculate the expression 6+7×8-9/0
 <p>]]>
             </line>
             <line>
-              <![CDATA[2020-11-20 18:07:55 INFO  Calculator:164 - Input Expression is the same as actual Expression
+              <![CDATA[2020-11-20 18:29:56 INFO  Calculator:166 - Input Expression is the same as actual Expression
 <p>]]>
             </line>
             <line>
-              <![CDATA[2020-11-20 18:07:55 INFO  Calculator:167 - the result is our expect
+              <![CDATA[2020-11-20 18:29:56 INFO  Calculator:169 - the result is our expect
 <p>]]>
             </line>
           </reporter-output>
         </test-method> <!-- infinityResultTest -->
-        <test-method signature="invalidResultTest()[pri:0, instance:com.logmein.tests.CalculatorTest@747ddf94]" started-at="2020-11-20T18:07:55 EST" name="invalidResultTest" finished-at="2020-11-20T18:07:56 EST" duration-ms="1246" status="PASS">
+        <test-method signature="invalidResultTest()[pri:0, instance:com.logmein.tests.CalculatorTest@747ddf94]" started-at="2020-11-20T18:29:56 EST" name="invalidResultTest" finished-at="2020-11-20T18:29:57 EST" duration-ms="1220" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[2020-11-20 18:07:55 INFO  Calculator:82 - Navigate to - https://www.jsbin.com/hudape/1
+              <![CDATA[2020-11-20 18:29:56 INFO  Calculator:82 - Navigate to - https://www.jsbin.com/hudape/1
 <p>]]>
             </line>
             <line>
-              <![CDATA[2020-11-20 18:07:55 INFO  BasePage:30 - Looking for mandatory elements on the page
+              <![CDATA[2020-11-20 18:29:56 INFO  BasePage:30 - Looking for mandatory elements on the page
 <p>]]>
             </line>
             <line>
-              <![CDATA[2020-11-20 18:07:56 INFO  Calculator:186 - Start to calculate the expression 6+7×8-/9
+              <![CDATA[2020-11-20 18:29:57 INFO  Calculator:188 - Start to calculate the expression 6+7×8-/9
 <p>]]>
             </line>
             <line>
-              <![CDATA[2020-11-20 18:07:56 INFO  Calculator:190 - Input Expression is the same as actual Expression
+              <![CDATA[2020-11-20 18:29:57 INFO  Calculator:192 - Input Expression is the same as actual Expression
 <p>]]>
             </line>
             <line>
-              <![CDATA[2020-11-20 18:07:56 INFO  Calculator:193 - the result is our expect
+              <![CDATA[2020-11-20 18:29:57 INFO  Calculator:195 - the result is our expect
 <p>]]>
             </line>
           </reporter-output>
         </test-method> <!-- invalidResultTest -->
-        <test-method signature="validResultTest()[pri:0, instance:com.logmein.tests.CalculatorTest@747ddf94]" started-at="2020-11-20T18:07:56 EST" name="validResultTest" finished-at="2020-11-20T18:07:58 EST" duration-ms="1960" status="PASS">
+        <test-method signature="validResultTest()[pri:0, instance:com.logmein.tests.CalculatorTest@747ddf94]" started-at="2020-11-20T18:29:57 EST" name="validResultTest" finished-at="2020-11-20T18:29:59 EST" duration-ms="1976" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[2020-11-20 18:07:56 INFO  Calculator:82 - Navigate to - https://www.jsbin.com/hudape/1
+              <![CDATA[2020-11-20 18:29:57 INFO  Calculator:82 - Navigate to - https://www.jsbin.com/hudape/1
 <p>]]>
             </line>
             <line>
-              <![CDATA[2020-11-20 18:07:56 INFO  BasePage:30 - Looking for mandatory elements on the page
+              <![CDATA[2020-11-20 18:29:58 INFO  BasePage:30 - Looking for mandatory elements on the page
 <p>]]>
             </line>
             <line>
-              <![CDATA[2020-11-20 18:07:57 INFO  Calculator:107 - Start to calculate the expression 1+2×3-4/5
+              <![CDATA[2020-11-20 18:29:59 INFO  Calculator:107 - Start to calculate the expression 1+2×3-4/5
 <p>]]>
             </line>
             <line>
-              <![CDATA[2020-11-20 18:07:57 INFO  Calculator:110 - Input Expression is the same as actual Expression
+              <![CDATA[2020-11-20 18:29:59 INFO  Calculator:110 - Input Expression is the same as actual Expression
 <p>]]>
             </line>
             <line>
-              <![CDATA[2020-11-20 18:07:57 INFO  Calculator:113 - the result is our expect
+              <![CDATA[2020-11-20 18:29:59 INFO  Calculator:113 - the result is our expect
 <p>]]>
             </line>
             <line>
-              <![CDATA[2020-11-20 18:07:58 INFO  Calculator:134 - Start to calculate the expression 6+7×8-0/9
+              <![CDATA[2020-11-20 18:29:59 INFO  Calculator:134 - Start to calculate the expression 6+7×8-0/9
 <p>]]>
             </line>
             <line>
-              <![CDATA[2020-11-20 18:07:58 INFO  Calculator:138 - Input Expression is the same as actual Expression
+              <![CDATA[2020-11-20 18:29:59 INFO  Calculator:138 - Input Expression is the same as actual Expression
 <p>]]>
             </line>
             <line>
-              <![CDATA[2020-11-20 18:07:58 INFO  Calculator:141 - the result is our expect
+              <![CDATA[2020-11-20 18:29:59 INFO  Calculator:141 - the result is our expect
 <p>]]>
             </line>
           </reporter-output>
         </test-method> <!-- validResultTest -->
       </class> <!-- com.logmein.tests.CalculatorTest -->
       <class name="com.logmein.tests.AbstractTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.logmein.tests.AbstractTest@2f9f7dcf]" started-at="2020-11-20T18:07:49 EST" name="beforeTest" finished-at="2020-11-20T18:07:49 EST" duration-ms="71" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.logmein.tests.AbstractTest@2f9f7dcf]" started-at="2020-11-20T18:29:50 EST" name="beforeTest" finished-at="2020-11-20T18:29:50 EST" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.logmein.tests.AbstractTest@2f9f7dcf]" started-at="2020-11-20T18:07:58 EST" name="afterTest" finished-at="2020-11-20T18:07:58 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.logmein.tests.AbstractTest@2f9f7dcf]" started-at="2020-11-20T18:29:59 EST" name="afterTest" finished-at="2020-11-20T18:29:59 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
