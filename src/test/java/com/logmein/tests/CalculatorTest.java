@@ -13,20 +13,8 @@ public class CalculatorTest extends AbstractTest {
 
         calculator.gotoCalculatorPage(url);
 
-
-
         // Calculate expression 16+27*38-49/50
         calculator.validResultExpression();
-
-//        calculator.validExpression8();
-
-
-        // Calculate expression 6+7×8-0/9
-//        calculator.validResultExpression2();
-
-//        calculator.getElement();
-
-
 
     }
 
@@ -37,7 +25,7 @@ public class CalculatorTest extends AbstractTest {
         calculator.gotoCalculatorPage(url);
 
         // Calculate expression 6+7×8-/9
-//        calculator.errorExpression();
+        calculator.errorExpression();
 
     }
 
@@ -48,10 +36,8 @@ public class CalculatorTest extends AbstractTest {
         calculator.gotoCalculatorPage(url);
 
         // Calculate expression 6+7×8-9/0
-//        calculator.infinityResultExpression();
+        calculator.infinityResultExpression();
 
     }
-
-
 
 }
