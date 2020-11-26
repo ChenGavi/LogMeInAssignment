@@ -72,9 +72,6 @@ public class Calculator extends BasePage{
 
     public void validResultExpression(){
         // Calculate expression 16+27×38-49/50
-//        driver.navigate().refresh();
-//        number = convertListToMap(numeric, "");
-//        operator = convertListToMap(operation, "value");
 
         number.get("1").click();
         number.get("6").click();
