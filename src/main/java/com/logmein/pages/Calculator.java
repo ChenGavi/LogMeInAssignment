@@ -112,6 +112,8 @@ public class Calculator extends BasePage{
         number.get("8").click();
         operator.get("-").click();
         number.get("9").click();
+        buttonDelete.click();
+        number.get("9").click();
         operator.get("/").click();
         number.get("0").click();
         operator.get("=").click();
